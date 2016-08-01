@@ -1,4 +1,11 @@
-const bubbleSort = nums => {  
+// never useful
+
+const bubbleSort = nums => {
+  
+  // I added this variable to increase the start
+  // position by one after every iteration
+  // slight optimization
+  
   let start = 0;
   do {
     var swapped = false;
